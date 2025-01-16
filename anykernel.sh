@@ -12,7 +12,6 @@ do.cleanup=1
 do.cleanuponabort=0
 device.name1=joan
 device.name2=
-supported.versions=15
 '; } # end properties
 
 # boot shell variables
