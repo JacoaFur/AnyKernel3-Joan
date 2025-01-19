@@ -10,8 +10,6 @@ do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=joan
-device.name2=
 '; } # end properties
 
 # boot shell variables
