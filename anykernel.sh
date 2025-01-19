@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=LineageOS 22.1 KernelSU-Next Kernel by Jacoa
+kernel.string=LineageOS 22.1 KernelSU-Next Kernel with SuSFS by Jacoa
 do.devicecheck=0
 do.modules=0
 do.systemless=1
