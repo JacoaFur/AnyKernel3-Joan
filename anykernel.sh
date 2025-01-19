@@ -10,16 +10,15 @@ do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=joan
-device.name2=
 '; } # end properties
 
 # boot shell variables
-BLOCK=/dev/block/bootdevice/by-name/boot;
-IS_SLOT_DEVICE=0;
-RAMDISK_COMPRESSION=auto;
-PATCH_VBMETA_FLAG=auto;
+block=boot;
+is_slot_device=auto;
+ramdisk_compression=auto;
+patch_vbmeta_flag=auto;
 
 . tools/ak3-core.sh;
-split_boot;
-flash_boot;
+dump_boot;
+vbmeta_disable_verification;
+write_boot;
